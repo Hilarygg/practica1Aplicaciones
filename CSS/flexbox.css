@@ -1,0 +1,19 @@
+.flex-container {
+    background-color: rgb(158, 158, 255);
+    display: flex;
+    
+}
+
+.flex-child {
+    background-color: #fb7813;
+    margin: 10px;
+    padding: 10px;
+    border: solid 5px black;
+    width: 100px;
+}
+
+@MEDIA (min-width: 800px) {
+    .flex-child {
+        background-color: aqua;
+    }
+}
