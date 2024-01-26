@@ -1,6 +1,9 @@
 .flex-container {
     background-color: rgb(158, 158, 255);
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     
 }
 
