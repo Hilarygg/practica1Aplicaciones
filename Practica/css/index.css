@@ -34,6 +34,21 @@ html {
     align-items: center;
 }
 
+.navbar-brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    margin-bottom: 1em;
+    font-weight: 500;
+}
+
+.navbar-brand img{
+    width: 2em;
+}
+
 .navbar-nav {
     background-color: rgba(0, 0, 0, 0.75);
     padding: 1em;
@@ -52,4 +67,133 @@ html {
     background-color: white;
     color: black;
     border-radius: 0.5em;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5em;
+    margin: 0 0.1em;
+    border-radius: 0.5em;
+}
+
+.btn-dark {
+    color: white;
+    background-color: #2f2e2e;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #214037;
+}
+
+.btn-secondary {
+    color: white;
+    background-color: #77a699;
+}
+
+.btn-danger {
+    color: white;
+    background-color: #a6464e;
+}
+
+.btn-info {
+    color: white;
+    background-color: #e2f2c9;
+}
+
+.main {
+    background-color: white;
+    margin-top: -2rem;
+    border-radius: 0.3em;
+    padding: 0.3em;
+}
+
+.main-title {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.card{
+    background-color: #a6464e;
+    color: white;
+    overflow: hidden;
+    border-radius: 0.5em;
+    margin-bottom: 1em;
+    width: 33%;
+    margin: 10px;
+}
+
+.card-img{
+    width: 200px;
+}
+
+.card-body {
+    padding: 1em;
+}
+
+.card-body h5{
+    font-size: 1.5rem;
+    margin: 1em 0;
+    font-weight: 500;
+}
+
+.card-body p {
+    font-weight: 300;
+}
+
+.tienda {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.nosotros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1em;
+    background-color: #2f2e2e;
+}
+
+.nosotros-col-img {
+    order: 2;
+    background-image: url('../assets/images/valorant.jpg');
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.nosotros-col-text {
+    order: 1px;
+}
+
+.nosotros-body {
+    padding: 1em;
+    text-align: center;
+    color:white;
+}
+
+.nosotros-body h2 {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.nosotros-body p{
+    font-weight: 200;
+}
+
+.bg-footer {
+    color: #e2f2c9;
+    background-color: "214037";
+}
+
+.bg-footer p {
+    text-align: center;
+    padding: 1em;
+    margin: 0;
 }
